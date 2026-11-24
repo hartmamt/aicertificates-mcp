@@ -1,5 +1,7 @@
 # AI Certificates MCP server
 
+[![AI Certificates MCP connector](https://glama.ai/mcp/connectors/study.aicertificates/practice-exams/badges/score.svg)](https://glama.ai/mcp/connectors/study.aicertificates/practice-exams)
+
 Practice questions for the Anthropic Claude certifications, served over MCP. Quiz yourself from Claude, Claude Code, Cursor, VS Code or any MCP client.
 
 **The assistant never sees the answer key.** `get_practice_question` returns the question and options with no answer field at all. The key is withheld at the data layer, not by a prompt instruction, so the assistant can't leak it or be argued into a wrong one. You commit to an answer first, and `check_answer` then grades it and explains every option, including the ones you didn't pick.
