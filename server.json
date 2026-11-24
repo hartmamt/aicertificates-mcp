@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "study.aicertificates/practice-exams",
+  "title": "AI Certificates",
+  "description": "Practice questions for the Claude certifications. The assistant never sees the key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://aicertificates.study/mcp",
+  "repository": {
+    "url": "https://github.com/hartmamt/aicertificates-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://aicertificates.study/icon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aicertificates.study/api/mcp"
+    }
+  ]
+}
